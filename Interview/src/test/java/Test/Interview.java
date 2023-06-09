@@ -42,7 +42,7 @@ static WebDriver driver = new ChromeDriver();
 	public static void mainmethod() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 		//System.setProperty("webdriver.chrome.Driver","C:\\web driver\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.Driver", "C:\\Users\\elcot\\git\\FinalCode\\Interview\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.Driver", "./Drivers\\chromedriver.exe");
 		
 		driver.manage().window().maximize();
 		driver.get("https://auth.dev.vntech.io");
